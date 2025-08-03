@@ -1,0 +1,22 @@
+ <div style="margin-bottom: 8px;">
+                                <div style="font-weight: 500; margin-bottom: 4px; color: #333;">Profil Risiko:</div>
+                                <div style="font-size: 12px;">
+                                    <span style="display: inline-block; margin-right: 8px;">
+                                        <strong>SDM:</strong> <span class="risk-${spot.resiko_sdm.toLowerCase()}">${spot.resiko_sdm}</span>
+                                    </span>
+                                    <span style="display: inline-block; margin-right: 8px;">
+                                        <strong>Modal:</strong> <span class="risk-${spot.risiko_pemodalan.toLowerCase()}">${spot.risiko_pemodalan}</span>
+                                    </span>
+                                </div>
+                                <div style="font-size: 12px; margin-top: 2px;">
+                                    <span style="display: inline-block; margin-right: 8px;">
+                                        <strong>Produksi:</strong> <span class="risk-${spot.risiko_produksi.toLowerCase()}">${spot.risiko_produksi}</span>
+                                    </span>
+                                    <span style="display: inline-block; margin-right: 8px;">
+                                        <strong>Pemasaran:</strong> <span class="risk-${spot.risiko_pemasaran.toLowerCase()}">${spot.risiko_pemasaran}</span>
+                                    </span>
+                                </div>
+                                <div style="font-size: 12px; margin-top: 2px;">
+                                    <strong>Hukum:</strong> <span class="risk-${spot.risiko_hukum.toLowerCase()}">${spot.risiko_hukum}</span>
+                                </div>
+                            </div>
